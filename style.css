@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1500px;
+    overflow-x: hidden;
+
+}
+
+nav{
+    position: absolute; /* all the interactive menu buttons */ 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 10vh;
+    background-color: transparent;
+
+}
+
+nav .nav1 a{ /* controls font and transition speed*/
+    color: black;
+    font-size: 13px;
+    padding-right: 20px;
+    transition: all 0.3s;
+
+}
+
+nav .nav1 a;hover{ /* when u hover turns font orange */
+    color: rgb(239, 122, 30)
+}
+
+nav ,user a {
+    color: black
+}
+
+.logo img{  /* sizing of monkey sushi logo*/
+    width: 450px;
+
+}
+
+nav .nav2{ /* evens out the spacing of interactables */
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.nav2 .search{ /* lining for the search box */
+    border-bottom: 1px solid rgb(59, 59, 59);
+    padding-bottom: 10px;
+    margin-right: 20px:
+}
+
+.nav2 .search input{ /* this is to make search bar minimal*/
+    width: 150px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+.nav2 .search input::placeholder{
+    color: black;
+
+}
+
+.sec1{ /*makes the second body of text and image lay pretty*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sec1 .image img{ /* img sizing and postition of sushi*/
+    width: 20vw;
+    max-width: 200;
+    margin-right: -5vw;
+}
+
+.sec1 .content{
+    width: 50vw;
+    padding: 7%;
+}
+
+.sec1 .content h1{ /* control header font*/
+    color: rgb (57, 33, 55)
+    font-size: 55px;
+    margin-bottom: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+}
+
+.sec1 .content p{ /*font for the about us paragraph*/
+    color: rgb(109, 97, 110)
+    margin-bottom: 30px;
+
+}
+
