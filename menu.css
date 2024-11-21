@@ -1,0 +1,69 @@
+body{
+    background: linear-gradient(45deg, white 70%,#fee9d1);
+}
+
+.menu{
+    text-align: center;
+    padding-top: 130px;
+}
+
+.menu h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+}
+
+.menu .menu-box{
+    padding: 100px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: 29;
+    flex-wrap: wrap;
+}
+
+.menu-card{
+    min-width: 270px;
+    width: 270px;
+    padding: 40px 30px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    overflow: visible;
+    margin-bottom: 100px;
+    box-shadow: 0 0 50px rgb(254, 233, 209);
+}
+
+.menu-card:hover img{
+    margin-top: -80px;
+}
+
+.menu-card img{
+    margin-bottom: 40px;
+    width: 180px;
+    height: 180px;
+    transition: all 0.3s;
+
+}
+
+.menu-card h4,
+.menu-card p,
+.menu-card span {
+    text-align: left;
+    margin-bottom: 15px;
+    display: block;
+}
+
+menu-card p{
+    font-size: 13px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.menu-card span{
+    color: rgb(241, 147, 73);
+    font-weight: 700
+}
