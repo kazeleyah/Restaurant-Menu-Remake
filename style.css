@@ -32,11 +32,11 @@ nav .nav1 a{ /* controls font and transition speed*/
 
 }
 
-nav .nav1 a;hover{ /* when u hover turns font orange */
+nav .nav1 a:hover{ /* when u hover turns font orange */
     color: rgb(239, 122, 30)
 }
 
-nav ,user a {
+nav a, .user a {
     color: black
 }
 
@@ -76,9 +76,9 @@ nav .nav2{ /* evens out the spacing of interactables */
 
 }
 
-.sec1 .image img{ /* img sizing and postition of sushi*/
+.sec1 .image img { /* img sizing and postition of sushi*/
     width: 20vw;
-    max-width: 200;
+    max-width: 200px;
     margin-right: -5vw;
 }
 
@@ -88,7 +88,7 @@ nav .nav2{ /* evens out the spacing of interactables */
 }
 
 .sec1 .content h1{ /* control header font*/
-    color: rgb (57, 33, 55)
+    color: rgb(57, 33, 55);
     font-size: 55px;
     margin-bottom: 15px;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -96,7 +96,7 @@ nav .nav2{ /* evens out the spacing of interactables */
 }
 
 .sec1 .content p{ /*font for the about us paragraph*/
-    color: rgb(109, 97, 110)
+    color: rgb(109, 97, 110);
     margin-bottom: 30px;
 
 }
@@ -111,14 +111,14 @@ nav .nav2{ /* evens out the spacing of interactables */
 /*idky the photos are so large*/
 
 .sec2 .image img {
-    width: 40 vw;
+    width: 40vw;
     max-width: 600px;
 }
 .sec2 .content {
     max-width: 40vw;
 }
 .sec2 h2 {
-    font-family: cedarville cursive, cursive, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Cedarville Cursive', cursive;
     font-size: 30px;
     color: rgb(235, 0, 1)
 }
@@ -131,9 +131,11 @@ nav .nav2{ /* evens out the spacing of interactables */
 }
 .sec2 .content p{
     color: rgb(57, 33, 55);
+    margin-bottom: 30px;
     font-size: 15px;
     line-height: 25px;
 }
+
 .sec3 {
     padding: 7% 5%;
     text-align: center;
@@ -154,7 +156,7 @@ nav .nav2{ /* evens out the spacing of interactables */
     width: 270px;
     padding: 40px 20px;
     border-radius: 15px;
-    box-shadow: 0 0 40px rgba(254, 253, 209, 0.6);
+    box-shadow: 0 0 40px rgb(254, 253, 209, 0.6);
     cursor: pointer;
     transition: all 0.3s;
 }
@@ -176,7 +178,6 @@ nav .nav2{ /* evens out the spacing of interactables */
     font-size: 13px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
     overflow: hidden;
     text-overflow: ellipsis;
 
